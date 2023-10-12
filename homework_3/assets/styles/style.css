@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+body {
+    width: 1920px;
+    height: 700px;
+    background-color: #FFF;
+    margin: 0;
+}
+html {
+    font-family: 'Gilroy-Bold';
+}
+.header {
+    width: 1289px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    margin: 14px 315px;
+}
+.Logo_header {
+    width: 137px;
+    height: 40px;
+    display: flex;
+    gap: 14px;
+    align-items: center
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Header_menu {
+    width: 533px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_content {
+    margin: 149px 330px 15px 316px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.top_title {
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top_text {
+    width: 466px;
+    height: 48px;
+    color: #888;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top_button_wrapper {
+    width: 374px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_button_start {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #F25822;
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top_button_watch {
+    /* width: 90px; */
+    height: 19px;
+    color: #AAA;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: white;
+}
+.footer {
+    width: 1920px;
+    height: 243px;
+}
+.footer_images {
+    margin: 38px 348px 47px 332px;
+    width: 1240px;
+    height: 158px;
+    display: flex;
+    align-items: center;
+}
+.image {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    gap: 50px;
+}
