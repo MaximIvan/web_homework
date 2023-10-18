@@ -127,3 +127,44 @@ a {
     gap: 50px;
     justify-content: space-between;
 }
+.features {
+    width: 1112px;
+    height: 226px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.features_title {
+    margin: 25px auto 0;
+    height: 30px;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.features_text {
+    width: 310px;
+    height: 42px;
+    margin: 17px auto 0;
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+.features_button {
+    border: none;
+    padding: 0;
+    height: 17px;
+    margin: 25px auto 0;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    background: white;
+}
