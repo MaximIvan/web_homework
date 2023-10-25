@@ -17,17 +17,20 @@
 
 body {
     margin: 0;
-    width: 1926px;
 }
 
 html {
     font-family: 'Gilroy-Bold';
 }
 
+.container {
+    width: 1203px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .features {
-    margin-top: 105px;
-    margin-left: 364px;
-    margin-right: 359px;
+    margin: 105px auto 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -39,6 +42,7 @@ html {
 
 .features-title {
     margin-top: 25px;
+    margin-bottom: 0;
     color: #000;
     font-size: 24px;
     font-weight: 400;
@@ -67,16 +71,14 @@ html {
     line-height: 150%; /* 16.5px */
 }
 
-section {
-    width: 1881px;
+.header-services {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .services-header-title {
-    margin-top: 192px;
-    margin-bottom: 0;
+    margin: 192px auto 0;
     color: #000;
     font-size: 45px;
     font-weight: 400;
@@ -85,7 +87,7 @@ section {
 
 .services-header-text {
     width: 682px;
-    margin: 19px 0 0;
+    margin: 19px auto 0;
     text-align: center;
     color: #666;
     font-family: Gilroy-Regular;
@@ -95,19 +97,18 @@ section {
 }
 
 .top-services {
-    width: 1440px;
-    margin: 30px 223px 0 257px;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 24px 152px 43px 118px;
-    gap: 30px;
+    padding-top: 24px;
+    grid-column-gap: 30px;
 }
 
 .services-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 30px 50px;
+    padding-top: 15px;
 }
 
 .services-title {
