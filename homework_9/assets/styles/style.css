@@ -589,9 +589,9 @@ header {
         gap: 48px;
     }
 
-    .delivery-text {
+    /* .delivery-text {
         width: 360px;
-    }
+    } */
 
     .feedback {
         padding-top: 64px;
@@ -703,6 +703,8 @@ header {
     .center_v2 {
         margin-left: 8px;
         margin-right: 8px;
+        max-width: 100%;
+        overflow: hidden;
     }
 
     .card_text {
@@ -721,9 +723,9 @@ header {
         padding-bottom: 81px;
     }
 
-    .delivery-text {
+    /* .delivery-text {
         width: 348px;
-    }
+    } */
 
     .feedback {
         padding-top: 64px;
