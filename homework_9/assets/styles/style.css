@@ -71,6 +71,67 @@ header {
     cursor: pointer;
 }
 
+.drop-menu {
+    display: none;
+    position: fixed;
+    width: 199px;
+    top: 75px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 32px;
+    padding-left: 33px;
+    z-index: 2;
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    .drop-menu__title {
+        color: #000;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .drop-menu__subtitle {
+        color: #F16D7F;
+        padding-top: 24px;
+    }
+
+    .drop-menu__first-item {
+        padding-left: 21.5px;
+        padding-top: 12px;
+    }
+
+    .drop-menu__item {
+        padding-left: 21.5px;
+        padding-top: 11px;
+    }
+
+    .drop-menu__last-item {
+        padding-top: 11px;
+        padding-left: 21.5px;
+        padding-bottom: 32px;
+    }
+
+    /* .drop-menu__item:nth-child(2- 4) {
+        padding-left: 11px;
+        padding-top: 11px;
+    } */
+    
+
+}
+
+.burger:hover .drop-menu {
+    display: block;
+    /* flex-direction: column; */
+    
+}
+
 .right-logo-human {
     cursor: pointer;
 }
